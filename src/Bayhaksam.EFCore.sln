@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{AB113C43-1B7A-468B-9014-534EDE081F0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7EF40006-FA9E-4922-A380-103C0FD4E793}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bayhaksam.EFCore", "src\src\Bayhaksam.EFCore.csproj", "{10A181FC-A1F7-4015-9A54-9D1BB6EA321C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bayhaksam", "Bayhaksam", "{216ACE88-D5BD-4FB0-B6FF-7C8914FE2954}"
+	ProjectSection(SolutionItems) = preProject
+		lib\Bayhaksam\Bayhaksam.Data.dll = lib\Bayhaksam\Bayhaksam.Data.dll
+		lib\Bayhaksam\Bayhaksam.dll = lib\Bayhaksam\Bayhaksam.dll
+		lib\Bayhaksam\Bayhaksam.xml = lib\Bayhaksam\Bayhaksam.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10A181FC-A1F7-4015-9A54-9D1BB6EA321C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A181FC-A1F7-4015-9A54-9D1BB6EA321C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A181FC-A1F7-4015-9A54-9D1BB6EA321C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A181FC-A1F7-4015-9A54-9D1BB6EA321C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10A181FC-A1F7-4015-9A54-9D1BB6EA321C} = {7EF40006-FA9E-4922-A380-103C0FD4E793}
+		{216ACE88-D5BD-4FB0-B6FF-7C8914FE2954} = {AB113C43-1B7A-468B-9014-534EDE081F0B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D68839D-D797-4EAE-8F6D-44564BC17CFA}
+	EndGlobalSection
+EndGlobal
